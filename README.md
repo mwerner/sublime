@@ -1,5 +1,11 @@
 # Sublime Resources
 
+## Preferences
+
+The Preferences file sets up small behavior tweaks, use of the Material Theme, general look and feel, and omits folders from the sidebar:
+
+[`preferences.json`](https://github.com/mwerner/sublime/blob/master/preferences.json)
+
 ## Themes
 
 #### Chalked
