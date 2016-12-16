@@ -83,7 +83,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#839db7</string>
+				<string>#839DB7</string>
 				<key>fontStyle</key>
 				<string> italic</string>
 			</dict>
@@ -111,7 +111,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#c21b00</string>
+				<string>#C21B00</string>
 			</dict>
 		</dict>
 		<dict>
@@ -292,7 +292,7 @@
 			<key>name</key>
 			<string>Invalid</string>
 			<key>scope</key>
-			<string>invalid</string>
+			<string>invalidTMP</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
@@ -602,7 +602,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#c0ac97</string>
+				<string>#C0AC97</string>
 			</dict>
 		</dict>
 		<dict>
@@ -816,13 +816,149 @@
 				<string>#BD1F1C</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSX: Class</string>
+			<key>scope</key>
+			<string>source.js.jsx</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string> bold</string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSX: Entity Name</string>
+			<key>scope</key>
+			<string>source.js.jsx meta.tag.inline.any.html entity.name.tag.inline.any.html,source.js.jsx meta.tag.block.any.html entity.name.tag.block.any.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E4D099</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSX: Variable</string>
+			<key>scope</key>
+			<string>source.js.jsx meta.tag.inline.any.html meta.brace.curly.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSX: Function</string>
+			<key>scope</key>
+			<string>source.js.jsx meta.tag.inline.any.html meta.brace.curly.js support.function.event-handler.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E4D099</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSX: Constant</string>
+			<key>scope</key>
+			<string>source.js.jsx meta.tag.inline.any.html meta.brace.curly.js support.constant.dom.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSX: Entity Tag</string>
+			<key>scope</key>
+			<string>source.js.jsx meta.tag.inline.any.html punctuation.definition.tag.begin.html,source.js.jsx meta.tag.inline.any.html punctuation.definition.tag.end.html,source.js.jsx meta.tag.block.any.html punctuation.definition.tag.begin.html,source.js.jsx meta.tag.block.any.html punctuation.definition.tag.end.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C0AC97</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSX: Language Variable</string>
+			<key>scope</key>
+			<string>source.js.jsx variable.language.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#EDDD5A</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSX: Curly Braces</string>
+			<key>scope</key>
+			<string>source.js.jsx meta.tag.inline.any.html meta.brace.curly.js punctuation.definition.brace.curly.start.js,source.js.jsx meta.tag.inline.any.html meta.brace.curly.js punctuation.definition.brace.curly.end.js,source.js.jsx meta.brace.curly.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A3BE91</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSX: Delimiter</string>
+			<key>scope</key>
+			<string>source.js.jsx meta.tag.inline.any.html meta.brace.curly.js meta.delimiter.method.period.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSX: Attribute</string>
+			<key>scope</key>
+			<string>source.js.jsx meta.tag.inline.any.html entity.other.attribute-name.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#839DB7</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSX: Class</string>
+			<key>scope</key>
+			<string>source.js.jsx storage.modifier.js,source.js.jsx storage.type.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9B5D5C</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSX: Logical AND</string>
+			<key>scope</key>
+			<string>source.js.jsx invalid.illegal.bad-ampersand.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C21B00</string>
+				<key>background</key>
+				<string>#212121</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>9E32B2C8-052E-46EE-B709-04B1C7559DA1</string>
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>semanticClass</key>
-	<string>theme.dark.chalked_ii</string>
+	<string>theme.dark.chalked_iii</string>
 	<key>author</key>
 	<string>Matthew Werner</string>
 	<key>comment</key>
