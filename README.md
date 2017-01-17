@@ -1,5 +1,17 @@
 # Sublime Resources
 
+## Installation
+
+Clone this repo into the application support:
+```
+git clone git@github.com:mwerner/sublime.git /Users/mwerner/Library/Application\ Support/Sublime\ Text\ 3/Packages
+Command+Shift+p => Package Control: Install Package => Material Theme
+
+# Copy your preferences into place:
+curl https://raw.githubusercontent.com/mwerner/sublime/master/preferences.json | pbcopy
+Command + , => Paste curl response into your preferences
+```
+
 ## Package Control
 
 Package Control is a required addition to make use of community plugins
