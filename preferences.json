@@ -1,71 +1,55 @@
 {
-  "always_show_minimap_viewport": true,
-  "binary_file_patterns":
-  [
-    "*.sassc",
-    "*.scssc",
-    "*.jpg",
-    "*.jpeg",
-    "*.png",
-    "*.gif",
-    "*.ttf",
-    "*.tga",
-    "*.dds",
-    "*.ico",
-    "*.eot",
-    "*.pdf",
-    "*.swf",
-    "*.jar",
-    "*.zip",
-    ".tags*",
-    "*.tddium"
-  ],
-  "bold_folder_labels": true,
-  "caret_extra_width": 2,
-  "color_scheme": "Packages/resources/Chalked.tmTheme",
-  "draw_white_space": "all",
-  "ensure_newline_at_eof_on_save": true,
-  "folder_exclude_patterns":
-  [
-    ".github",
-    "tmp",
-    "dist",
-    ".git",
-    "log",
-    "pkg",
-    "node_modules",
-    "build",
-    "vendor/cache",
-    "vendor/bundle",
-    "coverage"
-  ],
-  "font_face": "Operator Mono Medium",
-  "font_options":
-  [
-    "gray_antialias",
-    "subpixel_antialias"
-  ],
-  "font_size": 18,
-  "highlight_line": true,
-  "ignored_packages":
-  [
-    "Vintage"
-  ],
-  "indent_guide_options":
-  [
-    "draw_normal",
-    "draw_active"
-  ],
-  "line_padding_bottom": 2,
-  "line_padding_top": 2,
-  "material_theme_accent_orange": true,
-  "material_theme_appbar_charcoal": true,
-  "material_theme_bold_tab": true,
-  "material_theme_bright_scrollbars": true,
-  "material_theme_small_statusbar": true,
-  "material_theme_small_tab": true,
-  "overlay_scroll_bars": "enabled",
-  "tab_size": 2,
-  "theme": "Material-Theme-Darker.sublime-theme",
-  "translate_tabs_to_spaces": true
+	"binary_file_patterns":
+	[
+		"*.sassc",
+		"*.scssc",
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip",
+		"*.pdf"
+	],
+	"bold_folder_labels": true,
+	"caret_style": "blink",
+	"caret_extra_width": 3,
+	"color_scheme": "Packages/resources/Chalked.tmTheme",
+	"draw_white_space": "all",
+	"ensure_newline_at_eof_on_save": true,
+	"folder_exclude_patterns":
+	[
+		"tmp",
+		"dist",
+		".git",
+		"log",
+		"pkg",
+		"node_modules",
+		"vendor/cache",
+		"vendor/bundle",
+		"coverage"
+	],
+	"font_face": "Operator Mono Light",
+	"font_size": 22,
+	"highlight_line": true,
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"material_theme_accent_orange": true,
+	"material_theme_bold_tab": true,
+	"material_theme_bright_scrollbars": true,
+	"material_theme_small_statusbar": true,
+	"material_theme_small_tab": true,
+	"tab_size": 2,
+	"theme": "Material-Theme-Darker.sublime-theme",
+	"translate_tabs_to_spaces": true
 }
