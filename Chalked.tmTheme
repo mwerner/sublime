@@ -292,7 +292,7 @@
 			<key>name</key>
 			<string>Invalid</string>
 			<key>scope</key>
-			<string>invalidTMP</string>
+			<string>invalid.illegal</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
@@ -950,6 +950,49 @@
 				<string>#C21B00</string>
 				<key>background</key>
 				<string>#212121</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Find Results Header</string>
+			<key>scope</key>
+			<string>text.find-in-files entity.name.filename.find-in-files</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string> bold</string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+				<key>background</key>
+				<string>#295F8C</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Find Results Match</string>
+			<key>scope</key>
+			<string>text.find-in-files match.find-in-files</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#473F35</string>
+				<key>foreground</key>
+				<string>#F7EFE8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Find Results Gutter</string>
+			<key>scope</key>
+			<string>text.find-in-files constant.numeric.line-number.match.find-in-files</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string> bold</string>
+				<key>background</key>
+				<string>#082A38</string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 	</array>

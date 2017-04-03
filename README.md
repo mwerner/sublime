@@ -26,6 +26,10 @@ Generally when it comes to plugins, I try to add only the very essentials. Get t
 
 Crucial for converting a single quote string to a double when an interpolation need is added.
 
+#### [BetterFindBuffer](https://github.com/aziz/BetterFindBuffer)
+
+Styling and keyboard shortcuts for the Find Results buffer.
+
 #### [Git](https://github.com/kemayo/sublime-text-git)
 
 Really necessary to be able to issue small git commands. I mainly end up using it for `git blame`
