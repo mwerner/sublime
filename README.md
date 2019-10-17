@@ -25,6 +25,10 @@ Generally when it comes to plugins, I try to add only the very essentials. Get t
 #### [ChangeQuotes](https://github.com/colinta/SublimeChangeQuotes)
 
 Crucial for converting a single quote string to a double when an interpolation need is added.
+To enable keyboard shortcuts, add this to Sublime Text > Preferences > Key Bindings
+```
+{ "keys": ["super+shift+'"], "command": "change_quotes" }
+```
 
 #### [BetterFindBuffer](https://github.com/aziz/BetterFindBuffer)
 
