@@ -56,6 +56,13 @@ I've grown to really like the blended sidebar, color scheme, and clean lines. Co
 
 This has really helped with keeping clean, professional, file changes in your PRs. I find this combined with the `ensure_newline_at_eof_on_save` setting avoids a lot of sloppy commits on public projects. The [Chalked](https://github.com/mwerner/sublime/blob/master/README.md#chalked) theme also helps a lot by highlighting the trailing spaces bright red
 
+Update in Sublime Text > Preferences > Package Settings > Trailing Spaces > Settings - User
+```
+{
+	"trailing_spaces_highlight_color": "invalid.illegal"
+} 
+```
+
 ![Trailing Spaces Plugin](./assets/trailing_spaces.png)
 
 #### Syntax Highlighting
